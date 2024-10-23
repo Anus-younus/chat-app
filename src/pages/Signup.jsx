@@ -39,7 +39,7 @@ function SignupPage() {
     };
 
     return (
-        <Box sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh', backgroundColor: '#f5f5f5' }}>
+        <Box sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '39rem', backgroundColor: '#f5f5f5' }}>
             <Item sx={{ width: { xs: '90%', sm: '80%', md: '60%', lg: '40%' }, borderRadius: 2 }}>
                 <form onSubmit={handleSubmit(onSubmit)}>
                     <div style={{ padding: 10 }}>

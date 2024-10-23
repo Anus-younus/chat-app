@@ -149,7 +149,7 @@ function UserChat() {
     const isTyping = currentChat?.isTyping?.[chatId(currentChat.uid)]?.[currentChat.uid];
 
     return (
-        <div style={{ height: "100vh", position: "relative", width: "100vw" }}>
+        <div style={{ height: "39rem", position: "relative", width: "100%"}}>
             <MainContainer responsive style={{ width: "100%", height: "100%" }}>
                 <Sidebar position="left" scrollable={false} style={sidebarStyle}>
                     <ConversationHeader>

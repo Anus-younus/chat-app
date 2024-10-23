@@ -34,7 +34,7 @@ function LoginPage() {
     };
 
     return (
-        <div style={{ display: "flex", justifyContent: "center", alignItems: "center", height: "100vh", backgroundColor: "#f5f5f5" }}>
+        <Box sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '39rem', backgroundColor: '#f5f5f5' }}>
             <Box sx={{ width: { xs: '90%', sm: '80%', md: '60%', lg: '40%' }, borderRadius: 2 }}>
                 <Item>
                     <h2 style={{ fontSize: "24px", fontWeight: 600, marginBottom: "16px" }}>Login</h2>
@@ -82,7 +82,7 @@ function LoginPage() {
                     </form>
                 </Item>
             </Box>
-        </div>
+        </Box>
     );
 }
 
