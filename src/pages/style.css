@@ -1,0 +1,15 @@
+.login-container {
+    display: flex;
+    width: 100%;
+    border: 1px solid yellow;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.cs-message--outgoing .cs-message__sender-name {
+    display: block !important;
+}
+
+.cs-message--outgoing .cs-message__sent-time {
+    display: block !important;
+}
